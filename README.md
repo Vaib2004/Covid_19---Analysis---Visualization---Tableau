@@ -148,23 +148,23 @@ Following inferences can be drawn from the dashboards;
    + Recovery rate in upcoming months is in stable.
    + Death rate in upcoming months is in stable.
 - US is the country having highest number of cases
-   Total No. of cases: 28,16,444.
+   + Total No. of cases: 28,16,444.
 - India is on the 3rd number having highest number of active cases
-   Total number of cases: 4,95,499
+   + Total number of cases: 4,95,499
 - Country with Highest Recovery Rate is Brazil
-   Average Recovery: 18,46,641
+   + Average Recovery: 18,46,641
 - India is on the 3rd number in recovery rate.
-   Average Recovery: 9,51,166
+   + Average Recovery: 9,51,166
 - Brazil is the country in which recovery rate is high in compare to cases
-   Cases: 3000k
-   Recovered: 2200k
+   + Cases: 3000k
+   + Recovered: 2200k
 - US is the country having highest death rate in the world
-   Total death - 1,48,011
+   + Total death - 1,48,011
 - India is on the 6th number in death rate
-   Total death - 33,408
+   + Total death - 33,408
 - According to Active Cases there is highest deaths in the Brazil Country
-   Active - 508,116
-   Death - 87,618
+   + Active - 508,116
+   + Death - 87,618
 - In the month of july there is a highest no. of cases and there is highest no. of recovery also.
 - Countries in which people are dying more instead of recovery : France, Italy, Mexico, Spain, UK, US.
 - Countries in which people are recovering more instead of death: Brazil, India, Iran, Peru.
