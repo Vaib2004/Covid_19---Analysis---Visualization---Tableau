@@ -1,13 +1,13 @@
 # Covid_19-Analysis-Visualization-Tableau
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard Link : https://public.tableau.com/app/profile/vaibhav.kumar5478/viz/CovidDashboard1_17157104641410/Dashboard5
 
 ## Problem Statement
 
 This dashboard helps to understand the Cases, Recoveries and Death in Different countries. It helps to know which country is highly affected with covid-19 cases and which country is less affected. Through different visuals, we get to know the relation between the death and active cases, recovered and active cases, death and recovery, population and active cases of top highly affected countries. It also lets us know the month in which covid-19 cases is in peak and in downfall and also we let know in which upcoming month the cases is going to be in peak so that we can take precautions and work effectively, thus since by using this dashboard we have identified this problem, we can further work on handling the covid-19 cases.
 
 
-### Steps followed 
+### Steps Followed 
 - Step 1 : Download the dataset from kaggle.
 - Step 2 : Perform Data Cleaning, Modification using Jupyter.
 - Step 3 : Use Panda Library by Python Code for data cleaning.
