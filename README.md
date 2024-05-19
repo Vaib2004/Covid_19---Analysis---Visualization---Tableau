@@ -1,5 +1,4 @@
 # Covid_19-Analysis-Visualization-Tableau
-# Airlines-Dashboard
 
 ### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 
@@ -21,13 +20,99 @@ This dashboard helps to understand the Cases, Recoveries and Death in Different 
 - Step 10 : Now using these worksheets make the interactive Dashboards.
            
           
-NOTE:-
+### NOTE :-
 In our dataset:
 - Some Missing Data were assigned text "Missing" and in numeric columns were assigned value 0.
 - Date column converted to standard date system.
 
+### FILES :-
+- country_wise_latest
+- covid_19_clean_complete
+- day_wise
+- full_grouped
+- usa_county_wise
+- worldometer_data
 
+## Codes used for Cleaning the files:-
 
+# 1. covid_19_clean_complete
+
+import pandas as pd
+df = pd.read_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\covid_19_clean_complete.csv")
+dt = df.dtypes
+nv = df.isnull().sum()
+print(df)
+print("# Data Types")
+print(dt)
+print("# Null Values")
+print(nv)
+print("# info")
+print(df.info())
+print("# Describe")
+print(df.describe())
+df.fillna("Missing",inplace= True)
+print("# first 5 rows")
+print(df.head())
+print("# last 5 rows")
+print(df.tail())
+print("# Duplicate Values")
+print(df.duplicated)
+print("# column duplicated")
+df.to_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\covid_19_clean_complete.csv",index=False)
+
+![Screenshot 2024-05-19 172608](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/30d7964c-a9c6-4ee1-b9db-4ec7d7ee9362)
+
+# 2. usa_county_wise
+
+import pandas as pd
+df = pd.read_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\usa_county_wise.csv")
+dt = df.dtypes
+nv = df.isnull().sum()
+print(df)
+print("# Data Types")
+print(dt)
+print("# Null Values")
+print(nv)
+print("# info")
+print(df.info())
+print("# Describe")
+print(df.describe())
+df.fillna("Missing",inplace= True)
+print("# first 5 rows")
+print(df.head())
+print("# last 5 rows")
+print(df.tail())
+print(df)
+df.to_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\usa_county_wise.csv",index=False)
+
+![Screenshot 2024-05-19 172759](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/727649d8-6ccc-473c-b160-7440d853fc33)
+
+# 3. worldometer_data
+
+import pandas as pd
+df = pd.read_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\worldometer_data.csv")
+dt = df.dtypes
+nv = df.isnull().sum()
+print(df)
+print("# Data Types")
+print(dt)
+print("# Null Values")
+print(nv)
+print("# info")
+print(df.info())
+print("# Describe")
+print(df.describe())
+df.fillna("Missing",inplace= True)
+print("# first 5 rows")
+print(df.head())
+print("# last 5 rows")
+print(df.tail())
+print(df.fillna(0,inplace=True))
+df["WHO Region"].replace(0,"Missing",inplace=True)
+print(df.tail())
+df.to_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\worldometer_data.csv",index=False)
+
+![Screenshot 2024-05-19 172859](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/fa3bacb7-4307-42d6-b899-68043236c889)
 
 # Snapshot of Dashboard (Power BI Service)
 
