@@ -143,7 +143,7 @@ Following inferences can be drawn from the dashboards;
    + Highest Active Cases was in the month of June and Least Active Cases in the monnth of january.
    + highest recovery is in the month of june.
    + April is the month in which there is the highest number of death rate.
-   According to Analytics:
+- According to Analytics:
    + Highest active cases will be in the month of september.
    + Recovery rate in upcoming months is in stable.
    + Death rate in upcoming months is in stable.
