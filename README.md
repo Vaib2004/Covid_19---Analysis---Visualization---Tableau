@@ -114,21 +114,61 @@ df.to_csv("C:\\Users\\vaibh\\OneDrive\\Desktop\\DSEU\\covid\\worldometer_data.cs
 
 ![Screenshot 2024-05-19 172859](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/fa3bacb7-4307-42d6-b899-68043236c889)
 
-# Snapshot of Dashboard (Power BI Service)
+# Snapshot of Dashboard (Tableau_Public)
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+# 1. Death 
 
+ ![Screenshot (692)](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/31f4d000-b572-4c89-8b10-59a7409147a7)
+
+# 2. Active
  
- # Report Snapshot (Power BI DESKTOP)
+ ![Screenshot (691)](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/a3d923fb-c71c-4687-89a6-43f2655558db)
 
- 
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+# 3. Recovery
 
-# Insights
+![Screenshot (690)](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/88530e48-e3aa-423a-8b85-c72dd19bc2f3)
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+# 4. Miscellaneous
 
-Following inferences can be drawn from the dashboard;
+![Screenshot (693)](https://github.com/Vaib2004/Covid_19---Analysis---Visualization---Tableau/assets/169991554/598540a7-e9cc-4513-829e-376754dea2b5)
+
+# N0TE: In Visuals only Top and Bottom countries are Focused.
+
+# INSIGHTS 
+
+A single page report was created on Tableau Public Desktop & it was then published to tableau Service.
+Following inferences can be drawn from the dashboards;
+
+- According to Analysis:
+   + Highest Active Cases was in the month of June and Least Active Cases in the monnth of january.
+   + highest recovery is in the month of june.
+   + April is the month in which there is the highest number of death rate.
+   According to Analytics:
+   + Highest active cases will be in the month of september.
+   + Recovery rate in upcoming months is in stable.
+   + Death rate in upcoming months is in stable.
+- US is the country having highest number of cases
+   Total No. of cases: 28,16,444.
+- India is on the 3rd number having highest number of active cases
+   Total number of cases: 4,95,499
+- Country with Highest Recovery Rate is Brazil
+   Average Recovery: 18,46,641
+- India is on the 3rd number in recovery rate.
+   Average Recovery: 9,51,166
+- Brazil is the country in which recovery rate is high in compare to cases
+   Cases: 3000k
+   Recovered: 2200k
+- US is the country having highest death rate in the world
+   Total death - 1,48,011
+- India is on the 6th number in death rate
+   Total death - 33,408
+- According to Active Cases there is highest deaths in the Brazil Country
+   Active - 508,116
+   Death - 87,618
+- In the month of july there is a highest no. of cases and there is highest no. of recovery also.
+- Countries in which people are dying more instead of recovery : France, Italy, Mexico, Spain, UK, US.
+- Countries in which people are recovering more instead of death: Brazil, India, Iran, Peru.
+  
 
 
 
