@@ -168,6 +168,9 @@ Following inferences can be drawn from the dashboards;
 - In the month of july there is a highest no. of cases and there is highest no. of recovery also.
 - Countries in which people are dying more instead of recovery : France, Italy, Mexico, Spain, UK, US.
 - Countries in which people are recovering more instead of death: Brazil, India, Iran, Peru.
+
+# Conclusion:
+The data reflects a significant challenge in managing the pandemic, with some countries like the US and Brazil showing high numbers in cases and recoveries, respectively. The stability in recovery and death rates suggests that while the situation remains serious, efforts to manage and mitigate the pandemic are having an impact. The predicted rise in active cases in September underscores the need for continued vigilance and preparedness. It’s also noteworthy that while some countries are struggling with higher death rates, others are achieving better outcomes in terms of recovery.
   
 
 
